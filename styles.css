@@ -20,7 +20,7 @@ body{
 }
 .header{
    
-    gap: 1750px;
+    gap: 1300px;
 }
 
 .header{
@@ -69,7 +69,7 @@ body{
     margin: auto;
     width: 80%;
     height: 500px;
-    justify-content: space-between;
+   justify-content : flex-end;
     align-items: center;
     grid-template-columns: 50% 50%;
 }
@@ -136,4 +136,11 @@ body{
 .first-placeholder img{
     max-width: 100%;
     height: auto;
+    
+}
+
+.first{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
 }
