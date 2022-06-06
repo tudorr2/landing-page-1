@@ -8,7 +8,7 @@ body{
     line-height: inherit;
 
 }
-.top , .first{
+.top , .first , .middle{
     display: flex;
     flex-flow: column;
     font-family: 'Work Sans', sans-serif;
@@ -147,4 +147,61 @@ body{
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+}
+
+.middle{
+    
+    background-color: #EEEEEE;
+}
+
+
+.middle-info{
+   text-align: center;
+   font-weight: bold;
+   font-size : 48px;
+   
+}
+
+.image-1 img  , .image-2 img  , .image-3 img , .image-4 img {
+    display: flex;
+    flex-flow : row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    border : 3px solid #066163;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.middle-info{
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+/* .image-1:hover{
+    width: 255px;
+    height: 205px;
+
+} */
+
+.content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #066163;
+    text-align: center
 }
