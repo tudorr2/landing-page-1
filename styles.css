@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
 * {
     display: block;
     margin: 0;
@@ -8,7 +11,7 @@ body{
     line-height: inherit;
 
 }
-.top , .first , .middle{
+.top , .first , .middle , .quote{
     display: flex;
     flex-flow: column;
     font-family: 'Work Sans', sans-serif;
@@ -25,6 +28,8 @@ body{
 
 .header{
     display: flex;
+    
+    
 }
 
 .header-logo {
@@ -79,9 +84,15 @@ body{
     width: 38%;
     gap : 10px;
     text-align: justify;
+    
 
 
 }
+
+/* .first-container , .first-placeholder{
+    line-height: 1,5;
+    flex : 1 1 0;
+} */
 
 .first-header{
     font-size: 48px;
@@ -205,3 +216,34 @@ body{
     color: #066163;
     text-align: center
 }
+
+.quote{
+    background-color: #293241;
+    color : #f2e9e4;
+    
+}
+
+.quote p {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Joan', serif;
+    text-decoration: italic;
+    padding-top: 200px;
+    padding-bottom: 30px;
+} 
+
+.quote h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 800px;
+    padding-bottom: 200px;
+    font-family: 'Source Code Pro', monospace;
+}
+   
