@@ -31,7 +31,7 @@ body{
     font-size: 24px;
     padding : 30px;
     margin : 10px;
-   
+    color: #f2e9e4;
 }
 
 .header-logo h1{
@@ -40,12 +40,13 @@ body{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    
 }
 .links{
    
     gap: 30px;
-    margin: 10px;
-    padding : 30px;
+    margin: 5px;
+    padding : 20px;
 }
 .links{
     display: flex;
@@ -55,9 +56,12 @@ body{
     text-decoration: none;
     flex-flow: row;
     align-items: center;
+    
+    width: 50%;
+    justify-content: space-around;
     gap: 105px;
     margin: 20px;
-    color: Black;
+    color: #f2e9e4;
     font-size : 20px;
 }
 .first{
@@ -67,6 +71,7 @@ body{
     height: 500px;
     justify-content: space-between;
     align-items: center;
+    grid-template-columns: 50% 50%;
 }
 
 
@@ -125,6 +130,8 @@ body{
 
 .first-placeholder{
   width:500px;
+  grid-column: 2/3;
+    grid-row: 1/3;
     
 }
 
